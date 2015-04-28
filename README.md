@@ -8,30 +8,18 @@ Below is a list of coding considerations when contributing to Cuddlefish.
 1. **Small CSS**: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets). We'll use the .SCSS flavor of the preprocessor SASS.
   ```
   cuddlefish/
-    +-- .gitignore
-    +-- Gemfile
-    +-- Gemfile.lock
-    +-- config.rb
-    +-- source
-      +-- fonts
-      ¦   +-- ss-symbolicons-block.eot
-      ¦   +-- ss-symbolicons-block.svg
-      ¦   +-- ss-symbolicons-block.woff
-      ¦   +-- ss-symbolicons-block.ttf
-      +-- images
-      ¦   +-- background.png
-      ¦   +-- middleman.png
-      +-- index.html.erb /* Main homepage */
-      +-- javascripts
-      ¦   +-- all.js
-      ¦   +-- ss-symbolicons.js
-      +-- layouts
-      ¦   +-- layout.erb
-      +-- stylesheets
-        +-- normalize.scss
-        +-- grid.scss
-        +-- variables.scss
-        +-- fonts.scss
+    +-- stylesheets
+      +-- globals
+      ¦   +-- fonts.scss
+      ¦   +-- reset.scss
+      ¦   +-- variables.scss  
+      ¦   +-- utility-classes.scss
+      +-- components
+      ¦   +-- media-object.scss
+      +-- widgets
+          +-- super-fun-gallery.scss
+          +-- tabbed-list.scss
+          +-- hero-slideshow-billboard.scss
   ```
 
 2. **Be Specific**: We use [the BEM naming convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) to target elements in our HTML documents.
