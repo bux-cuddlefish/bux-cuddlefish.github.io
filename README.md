@@ -1,7 +1,7 @@
 # Cuddlefish
 Cuddlefish is a rapid prototyping environment for designing-in-browser.
 
-## Core Coding Philosophy
+## Team Coding Philosophy
 
 Below is a list of coding considerations when contributing to Cuddlefish.
 
