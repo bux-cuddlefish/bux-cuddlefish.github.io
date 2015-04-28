@@ -11,9 +11,9 @@ Below is a list of coding considerations when contributing to Cuddlefish.
     +-- stylesheets
       +-- plugins
       ¦   +-- animate.css
-      ¦   +-- fonts.scss
+      ¦   +-- fonts.css
       ¦   +-- grid.css
-      ¦   +-- reset.scss
+      ¦   +-- reset.css
       +-- globals
       ¦   +-- utility-classes.scss
       ¦   +-- variables.scss
