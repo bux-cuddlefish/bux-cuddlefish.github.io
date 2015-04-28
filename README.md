@@ -5,7 +5,7 @@ Cuddlefish is a rapid prototyping environment for designing-in-browser.
 
 Below is a list of coding considerations when contributing to Cuddlefish.
 
-1. Small CSS: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets).
+1. **Small CSS**: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets).
 (insert example of project directory and naming conventions)
 2. Be Specific: We use the BEM naming convention to target elements in our HTML documents.
 
@@ -15,13 +15,13 @@ Below is a list of coding considerations when contributing to Cuddlefish.
   </div>
   ```
   
-3. Practice Object-Oriented CSS.
-4. Always Be Iterating: Make small strides to iterate on our CSS Styleguide, as of now, here are some coding constraints we've agreed on as team:
+3. **Practice Object-Oriented CSS**.
+4. **Always Be Iterating**: Make small strides to iterate on our CSS Styleguide, as of now, here are some coding constraints we've agreed on as team:
   + Grouping CSS properties logically, or by how they affect the DOM (Document Object Model), in this order: 
-    1. Display properties (or things that affect the box model of an element or object)
-    2. Type; (things that affect how fonts are displayed and positioned)
-    3. Visual Styles
-    4. Animations and/or element transitions
+    **1. Display properties (or things that affect the box model of an element or object)**
+    **2. Type; (things that affect how fonts are displayed and positioned)**
+    **3. Visual Styles**
+    **4. Animations and/or element transitions**
     
     An example: 
     ```
