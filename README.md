@@ -14,7 +14,7 @@ Below is a list of coding considerations when contributing to Cuddlefish.
     <div class="block__element--modifier"></div>
   </div>
   ```
-  
+  Targeting elements this way addresses most of the concerns listed in [these best practices](https://github.com/sezgi/CSS-Best-Practices) around writing scalabale and reusable CSS.
 3. **Practice Object-Oriented CSS**.
 4. **Always Be Iterating**: Make small strides to iterate on our CSS Styleguide, as of now, here are some coding constraints we've agreed on as team:
   + Grouping CSS properties logically, or by how they affect the DOM (Document Object Model), in this order: 
