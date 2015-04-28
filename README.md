@@ -9,17 +9,20 @@ Below is a list of coding considerations when contributing to Cuddlefish.
   ```
   cuddlefish/
     +-- stylesheets
-      +-- globals
+      +-- plugins
+      ¦   +-- animate.css
       ¦   +-- fonts.scss
+      ¦   +-- grid.css
       ¦   +-- reset.scss
-      ¦   +-- variables.scss  
+      +-- globals
       ¦   +-- utility-classes.scss
+      ¦   +-- variables.scss
       +-- components
       ¦   +-- media-object.scss
       +-- widgets
+          +-- hero-slideshow-billboard.scss
           +-- super-fun-gallery.scss
           +-- tabbed-list.scss
-          +-- hero-slideshow-billboard.scss
   ```
 
 2. **Be Specific**: We use [the BEM naming convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) to target elements in our HTML documents.
