@@ -8,11 +8,13 @@ Below is a list of coding considerations when contributing to Cuddlefish.
 1. Small CSS: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets).
 (insert example of project directory and naming conventions)
 2. Be Specific: We use the BEM naming convention to target elements in our HTML documents.
+
   ```
   <div class="block__element">
     <div class="block__element--modifier"></div>
   </div>
   ```
+  
 3. Practice Object-Oriented CSS.
 4. Always Be Iterating: Make small strides to iterate on our CSS Styleguide, as of now, here are some coding constraints we've agreed on as team:
   + Grouping CSS properties logically, or by how they affect the DOM (Document Object Model), in this order: 
