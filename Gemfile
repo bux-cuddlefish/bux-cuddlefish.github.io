@@ -18,3 +18,5 @@ gem 'bh', '~> 1.2'
 
 # Optimizes images during the build process
 gem 'middleman-imageoptim'
+
+gem 'middleman-deploy', '~> 1.0'
