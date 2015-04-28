@@ -13,18 +13,25 @@ Below is a list of coding considerations when contributing to Cuddlefish.
     +-- Gemfile.lock
     +-- config.rb
     +-- source
+      +-- fonts
+      ¦   +-- ss-symbolicons-block.eot
+      ¦   +-- ss-symbolicons-block.svg
+      ¦   +-- ss-symbolicons-block.woff
+      ¦   +-- ss-symbolicons-block.ttf
       +-- images
       ¦   +-- background.png
       ¦   +-- middleman.png
       +-- index.html.erb /* Main homepage */
       +-- javascripts
       ¦   +-- all.js
+      ¦   +-- ss-symbolicons.js
       +-- layouts
       ¦   +-- layout.erb
       +-- stylesheets
         +-- normalize.scss
         +-- grid.scss
         +-- variables.scss
+        +-- fonts.scss
   ```
 
 2. **Be Specific**: We use [the BEM naming convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) to target elements in our HTML documents.
