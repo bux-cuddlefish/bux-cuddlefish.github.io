@@ -50,7 +50,7 @@ Below is a list of coding considerations when contributing to Cuddlefish.
 5. **Use Modern Browser fallbacks or vendor prefixes only.**
     +  Let the dev team worry about granular cross-browser compatibility. We should be spending as much of our time as possible on designing in the browser. Keep in mind, though, that you may need to include *certain* vendor prefixes so people can properly view your design progress in the *modern browser* of their choosing. Probably the most important of these properties is `box-sizing`, which we can create an `@include` for in our CSS so that we don't have repeat ourselves too often.
     ```
-    /* Without an include */
+    /* Without an @include (plain CSS) */
     
     .block__element--modifier {
       -moz-box-sizing: border-box;
@@ -58,8 +58,7 @@ Below is a list of coding considerations when contributing to Cuddlefish.
       box-sizing: border-box;
     }
     
-    
-    /* OR, with an @include */
+    /* OR, with an @include (SCSS) */
     
     .block__element--modifier {
        @include box-sizing(border-box);
