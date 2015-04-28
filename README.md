@@ -1,5 +1,5 @@
 # Cuddlefish
-Cuddlefish is a rapid prototyping, or designing-in-browser, environment for the ACS Browse UX team.
+Cuddlefish is a rapid prototyping environment for designing-in-browser.
 
 ## Core Coding Philosophy
 
