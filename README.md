@@ -86,3 +86,24 @@ Below is a list of coding considerations when contributing to Cuddlefish.
          @include box-sizing(border-box);
       }
       ```
+## Getting Cuddlefish running on your machine
+  ```
+  $ cd project_directory_where_you_want_Cuddlefish_to_live
+  $ git clone https://github.com/bux-cuddlefish/bux-cuddlefish.github.io.git cuddlefish
+  $ cd cuddlefish
+  $ git pull
+  $ git checkout gh-pages
+  ```
+The `gh-pages` branch will serve as our `master` branch and the one that we deploy to "production". To contribute to the project you'll create a branch off of `gh-pages`, make your changes, & submit a pull request comparing your branch to `gh-pages`.
+
+## Contributing to Cuddlefish
+
+```
+$ git checkout -b your-branch-name
+```
+
+Make sure you name your branch after an issue you're addressing/fixing or after the widget you'll be designing. Once you make changes you want to commit to your branch push your branch up to GitHub:
+
+```
+$ git push origin your-branch-name
+```
