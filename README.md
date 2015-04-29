@@ -88,9 +88,15 @@ Below is a list of coding considerations when contributing to Cuddlefish.
       ```
 
 ## Getting Cuddlefish running on your machine
+First, let's install Middleman on your machine.
 
 ```
-$ cd project_directory_where_you_want_Cuddlefish_to_live
+$ gem install middleman
+```
+Next, to download or clone the project down and run it on your machine:
+
+```
+$ cd folder_where_you_want_cuddlefish_to_live
 $ git clone https://github.com/bux-cuddlefish/bux-cuddlefish.github.io.git cuddlefish
 $ cd cuddlefish
 $ git pull
