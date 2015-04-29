@@ -1,11 +1,10 @@
 @charset "UTF-8";
-/* line 3, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
+
 body {
   background: #d4d4d4 url("../images/background.png");
   text-align: center;
   font-family: sans-serif; }
 
-/* line 8, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
 h1 {
   color: rgba(0, 0, 0, 0.3);
   font-weight: bold;
@@ -16,12 +15,10 @@ h1 {
   padding: 350px 0 10px;
   margin: 0; }
 
-/* line 18, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
 .doc {
   font-size: 14px;
   margin: 0; }
 
-/* line 21, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
 .doc:before,
 .doc:after {
   opacity: .2;
@@ -30,15 +27,12 @@ h1 {
   position: relative;
   content: "•"; }
 
-/* line 28, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
 .doc a {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 30, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
 .doc a:hover {
   color: #666; }
 
-/* line 33, /Users/jannhorvath/personal/cuddlefish/source/stylesheets/all.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
