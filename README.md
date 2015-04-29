@@ -94,17 +94,42 @@ $ cd project_directory_where_you_want_Cuddlefish_to_live
 $ git clone https://github.com/bux-cuddlefish/bux-cuddlefish.github.io.git cuddlefish
 $ cd cuddlefish
 $ git pull
-$ git checkout gh-pages
 ```
-
-The `gh-pages` branch will serve as our `master` branch and the one that we deploy to "production". To contribute to the project you'll create a branch off of `gh-pages`, make your changes, & submit a pull request comparing your branch to `gh-pages`.
 
 ## Contributing to Cuddlefish
 
+The `gh-pages` branch will serve as our `master` branch and the one that we deploy to "production". To contribute to the project you'll create a branch off of `gh-pages`, make your changes, & submit a pull request comparing your branch to `gh-pages`. To switch to this branch and pull down the latest changes:
+
+```
+$ git checkout gh-pages
+$ bundle install
+$ bundle exec middleman server
+```
+
+`bundle install` will install all of our apps dependencies on your machine and `bundle exec middleman server` will start a local server so that you can view pages in your browser.
+
+To start contributing to Cuddlefish create a new branch. Make sure you're branching off of `gh-pages` so we can merge your changes in later. To check which branch you're currently on by running:
+```
+$ git status
+```
+You should see the terminal return something like:
+```
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+```
+If you need to switch to the `gh-pages` branch, run: 
+```
+$ git checkout gh-pages
+$ git pull origin gh-pages
+```
+And then to create a new branch:
 ```
 $ git checkout -b your-branch-name
 ```
-Make sure you name your branch after an issue you're addressing/fixing or after the widget you'll be designing. Once you make changes you want to commit to your branch push your branch up to GitHub:
+You should try to name your branch after an issue you're addressing/fixing or after the widget you'll be designing. 
+
+Once you make changes you want to commit to your branch push your branch up to GitHub:
+
 ```
 $ git push origin your-branch-name
 ```
