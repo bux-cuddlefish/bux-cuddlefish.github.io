@@ -104,9 +104,10 @@ The `gh-pages` branch will serve as our `master` branch and the one that we depl
 $ git checkout gh-pages
 $ bundle install
 $ bundle exec middleman server
+$ open http://localhost:4567/
 ```
 
-`bundle install` will install all of our apps dependencies on your machine and `bundle exec middleman server` will start a local server so that you can view pages in your browser.
+`bundle install` will install all of our apps dependencies on your machine, `bundle exec middleman server` will start a local server so that you can view pages in your browser, and the open script will open the app in your browser.
 
 To start contributing to Cuddlefish create a new branch. Make sure you're branching off of `gh-pages` so we can merge your changes in later. To check which branch you're currently on by running:
 ```
