@@ -5,8 +5,26 @@ Cuddlefish is a rapid prototyping environment for designing-in-browser.
 
 Below is a list of coding considerations when contributing to Cuddlefish.
 
-1. **Small CSS**: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets).
-(insert example of project directory and naming conventions)
+1. **Small CSS**: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets). We'll use the .SCSS flavor of the preprocessor SASS.
+  ```
+  cuddlefish/
+    +-- stylesheets
+      +-- plugins
+      ¦   +-- animate.css
+      ¦   +-- fonts.css
+      ¦   +-- grid.css
+      ¦   +-- reset.css
+      +-- globals
+      ¦   +-- utility-classes.scss
+      ¦   +-- variables.scss
+      +-- components
+      ¦   +-- media-object.scss
+      +-- widgets
+          +-- hero-slideshow-billboard.scss
+          +-- super-fun-gallery.scss
+          +-- tabbed-list.scss
+  ```
+
 2. **Be Specific**: We use [the BEM naming convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) to target elements in our HTML documents.
 
   ```
