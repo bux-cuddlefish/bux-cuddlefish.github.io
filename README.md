@@ -140,3 +140,20 @@ Once you make changes you want to commit to your branch push your branch up to G
 ```
 $ git push origin your-branch-name
 ```
+
+## Submitting a Pull Request
+
+If you have a branch going with changes that you're ready to have pulled into our master branch (`gh-pages`)
+
+## Building & Deploying Cuddlefish
+
+```
+$ middleman build
+$ git push origin gh-pages
+$ open http://cuddlefish.io/
+```
+
+## Bootstrap Helpers
+
+## SCSS
+
