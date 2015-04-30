@@ -155,5 +155,9 @@ $ open http://cuddlefish.io/
 
 ## Bootstrap Helpers
 
+```
+<%= alert_box 'You accepted the Terms of service.', dismissible: true %>
+```
+
 ## SCSS
 
