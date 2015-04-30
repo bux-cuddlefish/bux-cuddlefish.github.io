@@ -3,7 +3,7 @@ Cuddlefish is a rapid prototyping environment for designing-in-browser.
 
 ## Team Coding Philosophy
 
-Below is a list of coding considerations when contributing to Cuddlefish. For specifics on how to write 
+Below is a list of coding considerations when contributing to Cuddlefish.
 
 1. **Small CSS**: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets). We'll use the .SCSS flavor of the preprocessor SASS.
   ```
@@ -66,7 +66,7 @@ Below is a list of coding considerations when contributing to Cuddlefish. For sp
     }
     ```
 5. **Use Modern Browser fallbacks or vendor prefixes only.**
-    +  Let the dev team worry about granular cross-browser compatibility. We should be spending as much of our time as possible on designing in the browser. Keep in mind, though, that you may need to include *certain* vendor prefixes so people can properly view your design progress in the *modern browser* of their choosing. Probably the most important of these properties is `box-sizing`, which we can create an `@include` for in our CSS so that we don't have repeat ourselves too often.
+    +  Let the dev team worry about granular cross-browser compatibility. We should be spending as much of our time as possible on designing-in-the-browser. Keep in mind, though, that you may need to include *certain* vendor prefixes so people can properly view your design progress in the *modern browser* of their choice. Probably the most important of these properties is `box-sizing`, which we can create an `@include` for in our CSS so that we don't have repeat ourselves too often.
 
 
       An example: 
@@ -88,7 +88,7 @@ Below is a list of coding considerations when contributing to Cuddlefish. For sp
       ```
 
 ## Getting Cuddlefish running on your machine
-First, let's install Middleman on your machine.
+First, let's install Middleman (the framework Cuddlefish is built on top of) onto your machine.
 
 ```
 $ gem install middleman
