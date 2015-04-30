@@ -143,7 +143,7 @@ $ git push origin your-branch-name
 
 ## Submitting a Pull Request
 
-If you have a branch going with changes that you're ready to have pulled into our master branch (`gh-pages`)
+If you have a branch going with changes that you're ready to have pulled or merged into our master/base branch (`gh-pages`), create a pull request on GitHub comparing your changes with the base branch. Let's make the rule that for now you need to have at least one other person review your code before it can be merged into the base and deployed. This also applies to any refactoring as well, not only new widgets designs.
 
 ## Building & Deploying Cuddlefish
 
@@ -154,10 +154,11 @@ $ open http://cuddlefish.io/
 ```
 
 ## Bootstrap Helpers
-
+In order to trigger a JS modal or notice, we're using Bootstrap Helpers in our project. We'll trigger one of these elements by writing an "erb" tag like the one below.
 ```
 <%= alert_box 'You accepted the Terms of service.', dismissible: true %>
 ```
+You can find the full documentation and exmaples [here](http://fullscreen.github.io/bh/).
 
 ## SCSS
-
+We're using the SCSS flavor of SASS, the documentation can be found [here](http://sass-lang.com/guide).
