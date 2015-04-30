@@ -3,7 +3,7 @@ Cuddlefish is a rapid prototyping environment for designing-in-browser.
 
 ## Team Coding Philosophy
 
-Below is a list of coding considerations when contributing to Cuddlefish.
+Below is a list of coding considerations when contributing to Cuddlefish. For specifics on how to write 
 
 1. **Small CSS**: Keep our CSS files small and specific with the goal of only including files that address either reusable/utility classes or specific components (or widgets). We'll use the .SCSS flavor of the preprocessor SASS.
   ```
