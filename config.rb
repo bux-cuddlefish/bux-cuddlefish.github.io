@@ -89,10 +89,10 @@ activate :deploy do |deploy|
 end
 
 # config.rb
-require 'rack/rewrite'
+# require 'rack/rewrite'
 
-use Rack::Rewrite do
-  r301 %r{/home(.*)\.html}, '/library'
-end
+# use Rack::Rewrite do
+  #r301 %r{/home(.*)\.html}, '/library'
+#end
 
 
