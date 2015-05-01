@@ -7,7 +7,7 @@ body {
 /* line 9, /Users/jannhorvath/personal/bux-cuddlefish.github.io/source/stylesheets/styleguide.scss */
 h1 {
   color: rgba(0, 0, 0, 0.3);
-  font-weight: bold;
+  font-weight: normal;
   font-size: 32px;
   letter-spacing: -1px;
   text-transform: uppercase;
