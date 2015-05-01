@@ -24,6 +24,11 @@ $a-offset-background-color: lighten($a-alternate-background-color, 1%) !default;
 $a-base-background-color: #fff !default; // White bg
 $a-nav-gradient-end: #eee !default;
 
+//Gradient Variables
+$CF-button-start: #f7dfa5;
+$CF-button-stop: #f0c14b;
+$CFbutton-background-primary: linear-gradient($CF-button-start, $CF-button-stop);
+
 //desktop-text-size
 $a-desktop-size-mini: 11px;
 $a-desktop-size-small: 12px;
