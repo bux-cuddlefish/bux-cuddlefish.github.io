@@ -1,48 +1,59 @@
+//text-colors
+$a-desktop-base-color: #333 !default; // black
+$a-mobile-base-color: #111 !default; // black on small screen, higher contrast
+$a-desktop-secondary-color: #888 !default; // gray
+$a-mobile-secondary-color: #666 !default; // gray on small screen
+$a-desktop-tertiary-color: #767676 !default; // Lighter Grey
+$a-mobile-tertiary-color: #999 !default; // lighter Grey on small screen
+$a-state-color: #C45500 !default; // orange
+$a-price-color: #B12704 !default; // red
+$a-link-color: #0066C0 !default; // blue
 
-//Text colors
-$a-base-color:  #333 !default; // Black
-$a-base-color-variant: #111 !default; //Black on small screen
-$a-base-color-invert: #fff !default;
-$a-secondary-color: #888 !default; // Gray
-$a-secondary-color-variant: #666 !default; // Gray on small screen
-$a-tertiary-color: #aaa !default; // Lighter Grey
-$a-tertiary-color-variant: #999 !default; // Lighter Grey on small screen
-$a-state-color: #e47911 !default; //Orange
-$a-success-color:  #090 !default; //Green
-$a-price-color: #B12704 !default; // Red
-$a-link-color: #0066c0 !default; // Blue
-$a-error-color: #d00 !default; // Red
-$a-info-color: #BBD3DE !default; // Blueish
-$a-warning-color: #ffd63f !default; // Yellow/Orangeish
+//alert-colors
+$a-error-color: #d00 !default; // red
+$a-success-color: #008A00 !default; // green
+$a-info-color: #BBD3DE !default; // blueish
+$a-warning-color: #ffd63f !default; // yellow-orangeish
+
+
+//structural-colors
+$a-border-color: #ddd !default; // light gray border
+$a-border-color-variant: #e7e7e7 !default; // even lighter gray border
+$a-thumb-border: #e0e0e0 !default;
+$a-alternate-background-color: #f3f3f3 !default; // light gray bg
+$a-offset-background-color: lighten($a-alternate-background-color, 1%) !default; // even lighter gray bg
+$a-base-background-color: #fff !default; // White bg
+$a-nav-gradient-end: #eee !default;
 
 //Gradient Variables
 $CF-button-start: #f7dfa5;
 $CF-button-stop: #f0c14b;
 $CFbutton-background-primary: linear-gradient($CF-button-start, $CF-button-stop);
 
-//Structural colors
-$a-border-color: #ddd !default; // Light gray border
-$a-border-color-variant: #e7e7e7 !default; // even LIGHTER gray border
-$a-thumb-border: #e0e0e0 !default;
-$a-alternate-background-color: #f3f3f3 !default; // Light gray bg
-$a-offset-background-color: lighten($a-alternate-background-color, 1%) !default; // even LIGHTER gray bg
-$a-base-background-color: #fff !default; // White bg
-$a-nav-gradient-end: #eee !default;
+//desktop-text-size
+$a-desktop-size-mini: 11px;
+$a-desktop-size-small: 12px;
+$a-desktop-size-base: 13px;
+$a-desktop-size-medium: 17px;
+$a-desktop-size-large: 21px;
+$a-desktop-size-extra-large: 28px;
 
-//Sizing
-$a-size-mini: 11px;
-$a-size-small: 12px;
-$a-size-base: 13px;
-$a-size-medium: 17px;
-$a-size-large: 21px;
-$a-size-extra-large: 28px;
+//desktop-spacing
+$a-desktop-spacing-micro: 4px;
+$a-desktop-spacing-mini: 6px;
+$a-desktop-spacing-small: 10px;
+$a-desktop-spacing-base: 14px;
+$a-desktop-spacing-medium: 18px;
+$a-desktop-spacing-large: 22px;
+$a-desktop-spacing-extra-large: 26px;
+$a-desktop-spacing-double-large: 44px;
 
-//Spacing
-$a-spacing-micro: 4px;
-$a-spacing-mini: 6px;
-$a-spacing-small: 10px;
-$a-spacing-base: 14px;
-$a-spacing-medium: 18px;
-$a-spacing-large: 22px;
-$a-spacing-extra-large: 26px;
-$a-spacing-double-large: 44px;
+//mobile-spacing
+$a-mobile-spacing-micro: .4rem;
+$a-mobile-spacing-mini: .5rem;
+$a-mobile-spacing-small: .9rem;
+$a-mobile-spacing-base: 1.3rem;
+$a-mobile-spacing-medium: 1.7rem;
+$a-mobile-spacing-large: 2.1rem;
+$a-mobile-spacing-extra-large: 2.5rem;
+$a-mobile-spacing-double-large: 4.2rem;

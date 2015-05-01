@@ -1,0 +1,87 @@
+@import "globals/variables.scss";
+
+
+.price-block__container{
+	margin: 10px;
+}
+
+.image--placeholder {
+	width:170px;
+	height: 150px;
+	display:block;
+
+	background-color: $a-alternate-background-color;
+}
+
+.price-block__title {
+	padding-bottom: a-desktop-spacing-micro;
+
+	font-size: a-desktop-size-small;
+	color: #004B91;
+}
+
+.price-block__price--list {
+  display: inline-block;
+
+  text-decoration: line-through;
+  font-size: a-desktop-size-mini;
+
+  color: #bbb;
+}
+
+.price-block__price--buy {
+  display: inline-block;
+
+  font: a-desktop-size-base; 
+  line-height: 20px;
+  text-decoration: none;
+
+  color: #b12704;
+}
+
+.price-block__button--add-to-cart {
+  width: 115px;
+  height: 30px;
+  padding: a-desktop-spacing-micro;
+  display: inline-block;
+
+  text-align: center;
+  border: 1px solid #a88734;  
+  font-size: 12px;
+  font-family: sans-serif;
+
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  color: #000;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+}
+
+.icon--prime {
+  margin-bottom: a-desktop-spacing-micro;
+  width: 52px;
+  height: 16px;
+  display: block;
+
+  vertical-align: baseline;
+
+  background-position: -5px -489px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/amazonui/sprites/aui_sprite_0037-1x._V1_.png%22");
+}
+
+.icon--stars {
+  width: 80px;
+  height: 16px;
+  display: block;
+
+  vertical-align: baseline;
+
+	background-position: -175px -368px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/amazonui/sprites/aui_sprite_0037-1x._V1_.png%22");
+}
+
+.stock--availability {
+	display: block;
+
+	font-size: 11px;
+	color: #008a00;
+}
