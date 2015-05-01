@@ -1,8 +1,10 @@
 @charset "utf-8";
+@import "globals/variables";
 
 body {
   text-align: center;
-  font-family: sans-serif; 
+  font-family: sans-serif;
+  background: $CF-button-start;
 }
 
 h1 {

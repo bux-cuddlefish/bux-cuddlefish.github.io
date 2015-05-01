@@ -15,6 +15,11 @@ $a-error-color: #d00 !default; // Red
 $a-info-color: #BBD3DE !default; // Blueish
 $a-warning-color: #ffd63f !default; // Yellow/Orangeish
 
+//Gradient Variables
+$CF-button-start: #f7dfa5;
+$CF-button-stop: #f0c14b;
+$CFbutton-background-primary: linear-gradient($CF-button-start, $CF-button-stop);
+
 //Structural colors
 $a-border-color: #ddd !default; // Light gray border
 $a-border-color-variant: #e7e7e7 !default; // even LIGHTER gray border
