@@ -1,0 +1,29 @@
+@import "globals/variables";
+
+.tupperware {
+	width: 220px;
+	margin: 10px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: $a-thumb-border;
+	border-radius: 3px;
+}
+
+.tupperware__image--placeholder{
+	width: 120px;
+	height:170px;
+	padding:20px;
+
+	color: #fff;
+}
+
+.tupperware__inside--grey {
+	height: 130px;
+	width: 220px;
+
+	border-top-color: $a-thumb-border;
+	border-top-width: 1px;
+	border-top-style: solid;
+	background-color: $a-alternate-background-color;
+}
