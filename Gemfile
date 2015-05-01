@@ -24,3 +24,5 @@ gem 'middleman-deploy', '~> 1.0'
 gem "bootstrap-sass", :require => false
 
 gem "middleman-bourbon"
+
+gem "rack-rewrite"

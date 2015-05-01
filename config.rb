@@ -88,3 +88,11 @@ activate :deploy do |deploy|
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
+# config.rb
+require 'rack/rewrite'
+
+use Rack::Rewrite do
+  r301 %r{/home(.*)\.html}, '/library'
+end
+
+
