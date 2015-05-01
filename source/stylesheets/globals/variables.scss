@@ -15,6 +15,7 @@ $a-success-color: #008A00 !default; // green
 $a-info-color: #BBD3DE !default; // blueish
 $a-warning-color: #ffd63f !default; // yellow-orangeish
 
+
 //structural-colors
 $a-border-color: #ddd !default; // light gray border
 $a-border-color-variant: #e7e7e7 !default; // even lighter gray border
@@ -23,6 +24,11 @@ $a-alternate-background-color: #f3f3f3 !default; // light gray bg
 $a-offset-background-color: lighten($a-alternate-background-color, 1%) !default; // even lighter gray bg
 $a-base-background-color: #fff !default; // White bg
 $a-nav-gradient-end: #eee !default;
+
+//Gradient Variables
+$CF-button-start: #f7dfa5;
+$CF-button-stop: #f0c14b;
+$CFbutton-background-primary: linear-gradient($CF-button-start, $CF-button-stop);
 
 //desktop-text-size
 $a-desktop-size-mini: 11px;
