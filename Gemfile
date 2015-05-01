@@ -20,3 +20,7 @@ gem 'bh', '~> 1.2'
 gem 'middleman-imageoptim'
 
 gem 'middleman-deploy', '~> 1.0'
+
+gem "bootstrap-sass", :require => false
+
+gem "middleman-bourbon"
