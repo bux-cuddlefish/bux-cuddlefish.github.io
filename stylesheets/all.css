@@ -159,6 +159,7 @@
   display: block;
   font-size: 11px;
   color: #008a00; }
+<<<<<<< HEAD
 
 h1 {
   color: rgba(0, 0, 0, 0.3);
@@ -205,3 +206,5 @@ h1 {
     opacity: 1; }
   to {
     -webkit-transform: scale(1); } }
+=======
+>>>>>>> cbf6ed0d31e938b9f426c52fd64a4f52b3d00b33
